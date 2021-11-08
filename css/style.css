@@ -28,9 +28,16 @@
     text-decoration: none;
     color: #222222;
 }
+/* .header__list-link:hover {
+    color: #0082F3;
+} */
 .header__list-link--active {
     color: #0082F3;
+    transition: all .4s;
 }
+
+
+
 .header__item {
     padding-left: 40px;
     font-family: 'Work Sans', sans-serif;
@@ -96,4 +103,111 @@
 }
 .main__content {
     margin-right: 155px;
+}
+/*---------------------------------------------------------------------------------------------*/
+.it-work {
+    margin-bottom: 29px;
+    position: relative;
+}
+.it-work__items {
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    align-items: center;
+}
+.it-work__title {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.top__line {
+    max-width: 288px;
+    height: 12px;
+    background: #582EFF;
+}
+/* .arrow {
+    position: absolute;
+} */
+.back-color2 {
+    background: #FF814A;
+}
+.back-color3 {
+    background: #31C5A1;
+}
+.it-work__item {
+    max-width: 288px;
+    height: 338px;
+    text-align: center;
+    border: 1px solid #B7B7B7;
+    box-shadow: 0px 0px 10px #B7B7B7;
+}
+
+.work__item-img {
+    margin: 42px auto 49px;
+}
+.work__item-text {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #333333;
+    padding-bottom: 31px;
+}
+.work__item-content {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    line-height: 25px;
+    width: 248px;
+    display: inline-block;
+    padding: 0 20px 50px;
+}
+/*---------------------------------------------------------------------------------------------*/
+.play-store {
+    background: #31C5A1;
+    text-align: center;
+    width: 100%;
+    /* height: 371px; */
+    margin-bottom: 50px;
+}
+.play-store__content {
+    padding-top: 131px;
+    padding-bottom: 80px;
+}
+.play-store__text {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffff;
+    width: 555px;
+    display: inline-block;
+    padding-bottom: 40px;
+}
+/*---------------------------------------------------------------------------------------------*/
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 55px;
+    
+}
+.footer__menu-list {
+    margin: 0;
+    list-style: none;
+}
+.footer__menu-item {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 17px;
+    line-height: 30px;
+    width: 264px;
+}
+.logo {
+    margin-right: 120px;
 }
